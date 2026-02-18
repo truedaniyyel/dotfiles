@@ -1,0 +1,39 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "workbench.enableExperiments": false,
+  "update.mode": "manual",
+
+  "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+  "python.terminal.activateEnvironment": true,
+  "python.languageServer": "None",
+  "basedpyright.analysis.typeCheckingMode": "standard",
+  "basedpyright.analysis.diagnosticMode": "openFilesOnly",
+  "basedpyright.importStrategy": "useBundled",
+
+  "files.autoSave": "onFocusChange",
+  "editor.formatOnSave": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "autoDocstring.docstringFormat": "google",
+  "autoDocstring.guessTypes": true,
+
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.iconTheme": "ayu",
+  "editor.fontFamily": "'JetBrainsMono Nerd Font', Consolas, monospace",
+  "workbench.activityBar.location": "hidden",
+  "workbench.statusBar.visible": true,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.lineNumbers": "on",
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.lineHeight": 1.6,
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.smoothScrolling": true,
+  "editor.renderWhitespace": "selection"
+}
